@@ -5,8 +5,8 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 import plotly.graph_objects as go
 
-Deliveries = pd.read_csv('C:/Users/sanja/Downloads/deliveries(1).csv')
-Matches = pd.read_csv('C:/Users/sanja/Downloads/matches(1).csv')
+Deliveries = pd.read_csv('IPL-anaylsis/deliveries(1).csv')
+Matches = pd.read_csv('IPL-anaylsis/matches(1).csv')
 
 st.sidebar.title('IPL Anaylsis')
 st.sidebar.image(
